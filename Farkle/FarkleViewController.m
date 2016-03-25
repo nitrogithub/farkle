@@ -10,12 +10,6 @@
 #import "DieLabel.h"
 
 @interface FarkleViewController () <DieLabelDelegate>
-@property (weak, nonatomic) IBOutlet DieLabel *dieLabel1;
-@property (weak, nonatomic) IBOutlet DieLabel *dieLabel2;
-@property (weak, nonatomic) IBOutlet DieLabel *dieLabel3;
-@property (weak, nonatomic) IBOutlet DieLabel *dieLabel4;
-@property (weak, nonatomic) IBOutlet DieLabel *dieLabel5;
-@property (weak, nonatomic) IBOutlet DieLabel *dieLabel6;
 @property int *randomNumber;
 
 @end
@@ -27,17 +21,6 @@
     
     
     
-}
-
-// When button is pressed, method inside the DIELABLE class is called to update numbers
-- (IBAction)rollDiceButton:(UIButton *)sender {
-    [self.dieLabel1 roll];
-    [self.dieLabel2 roll];
-    [self.dieLabel3 roll];
-    [self.dieLabel4 roll];
-    [self.dieLabel5 roll];
-    [self.dieLabel6 roll];
-
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5EA46D1CA593840004FB7C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5EA46C1CA593840004FB7C /* GameViewController.m */; };
 		7CB879A11CA4903600D78E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB879A01CA4903600D78E0B /* main.m */; };
 		7CB879A41CA4903600D78E0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB879A31CA4903600D78E0B /* AppDelegate.m */; };
 		7CB879AA1CA4903600D78E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB879A81CA4903600D78E0B /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C5EA46B1CA593840004FB7C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7C5EA46C1CA593840004FB7C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		7CB8799C1CA4903600D78E0B /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB879A01CA4903600D78E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CB879A21CA4903600D78E0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				7CB879A31CA4903600D78E0B /* AppDelegate.m */,
 				7CB879B91CA4938B00D78E0B /* DieLabel.h */,
 				7CB879BA1CA4938B00D78E0B /* DieLabel.m */,
+				7C5EA46B1CA593840004FB7C /* GameViewController.h */,
+				7C5EA46C1CA593840004FB7C /* GameViewController.m */,
 				7CB879B61CA4936300D78E0B /* FarkleViewController.h */,
 				7CB879B71CA4936300D78E0B /* FarkleViewController.m */,
 				7CB879A81CA4903600D78E0B /* Main.storyboard */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5EA46D1CA593840004FB7C /* GameViewController.m in Sources */,
 				7CB879A41CA4903600D78E0B /* AppDelegate.m in Sources */,
 				7CB879B81CA4936300D78E0B /* FarkleViewController.m in Sources */,
 				7CB879A11CA4903600D78E0B /* main.m in Sources */,
@@ -305,6 +311,7 @@
 				7CB879B51CA4903600D78E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

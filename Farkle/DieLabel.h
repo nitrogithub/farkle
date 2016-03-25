@@ -11,6 +11,7 @@
 @protocol DieLabelDelegate
 
 @optional
+-(void)foo;
 @end
 
 

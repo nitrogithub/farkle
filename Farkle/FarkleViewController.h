@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FarkleViewController.h
 //  Farkle
 //
 //  Created by Kevin Kim on 3/24/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FarkleViewController : UIViewController
 
 @end
-
